@@ -1,0 +1,40 @@
+/* components/ScrambleText.module.css */
+
+.scrambleContainer {
+    position: relative;
+}
+
+.scrambleText {
+    font-size: 24px;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center;
+    animation: fadeInAnimation 1s ease-in forwards;
+    text-shadow:
+        "0 0 2px #00f, 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 60px #00f";
+    animation: "$glow 1s ease-in-out infinite alternate",
+}
+
+/* <GlowingText
+                    variant="body1"
+                    sx={{
+                        ...styles.glowingText,
+                        textTransform: "capitalize",
+                        display: "flex",
+                        fontSize: { xs: "1.5em", sm: "22px" },
+                        fontweight: "bold",
+                        color: (theme) => theme.palette.primary.main,
+                        textShadow:
+                            "0 0 2px #00f, 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 60px #00f",
+                        animation: "$glow 1s ease-in-out infinite alternate",
+                    }}
+                > */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

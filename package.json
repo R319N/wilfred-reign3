@@ -16,7 +16,6 @@
     "@gsap/react": "^2.1.2",
     "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4",
-    "@mui/material-next": "^6.0.0-alpha.126",
     "@mui/material-nextjs": "^7.3.3",
     "@studio-freight/lenis": "^1.0.42",
     "chroma-js": "^3.1.2",

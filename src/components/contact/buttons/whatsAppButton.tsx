@@ -1,7 +1,7 @@
 import React from "react";
 import IconButton from '@mui/material/IconButton';
-import {WhatsApp as WhatsAppIcon}  from "@mui/icons-material/";
 import RotatingCard from "@/ui/cards/RotatingCard";
+import WhatsApp from "@mui/icons-material/WhatsApp";
 // import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
@@ -14,7 +14,7 @@ const WhatsAppButton: React.FC<WhatsAppProps> = ({ phoneNumber }) => {
       <IconButton
         href={`https://wa.me/${phoneNumber}?text=Hie%20gene20`}
       >
-        <WhatsAppIcon sx={{ fontSize: "20px", color: "green" }} />
+        <WhatsApp sx={{ fontSize: "20px", color: "green" }} />
       </IconButton>
     </RotatingCard>
   );
